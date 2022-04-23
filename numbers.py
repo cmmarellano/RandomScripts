@@ -18,7 +18,7 @@ result_product = first_number*second_number
 result_quotient = first_number/second_number
 
 
-
+# labels
 print(f"{first_number} plus {second_number} equals {result_sum}")
 print(f"{first_number} minus {second_number} equals {result_difference}")
 print(f"{first_number} multiplied by {second_number} equals {result_product}")
