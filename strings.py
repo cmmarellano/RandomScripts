@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Apr 24 00:24:02 2022
-
+TwilioQuest: The Pythonic Temple
+Python Initiation: Strings
 @author: Arellano
 """
 

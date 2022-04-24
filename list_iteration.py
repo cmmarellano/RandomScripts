@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Apr 24 11:54:09 2022
-
+TwilioQuest: The Pythonic Temple
+Python Initiation: List Iteration
 @author: Arellano
 """
 

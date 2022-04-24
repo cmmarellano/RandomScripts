@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Apr 24 00:33:14 2022
-
+TwilioQuest: The Pythonic Temple
+Python Initiation: Numbers
 @author: Arellano
 """
 
