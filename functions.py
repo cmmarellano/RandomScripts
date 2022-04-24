@@ -5,9 +5,10 @@ Created on Sun Apr 24 12:01:25 2022
 @author: Arellano
 """
 
-msg = "Hail, friend!"
+import sys
 
-def hail_friend():
-    print(msg)
+args = sys.argv
+def hail_friend(args):
+    print(f"Hail, {args}!")
 
 hail_friend()
