@@ -18,10 +18,11 @@ def hail_friend(args):
 
 
 def add_numbers(num1, num2):
-    result_sum = arg1 + arg2
+    result_sum = int(arg1) + int(arg2)
     return result_sum
 
 
 # Call function
 #hail_friend(arg1)
 add_numbers(arg1, arg2)
+#print(type(arg1))
