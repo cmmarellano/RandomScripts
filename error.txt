@@ -1,0 +1,8 @@
+Executing script: C:\Users\Arellano\Documents\GitHub\RandomScripts\functions.py
+Script arguments: Dio Brando
+Output:
+Traceback (most recent call last):
+  File "C:\Users\Arellano\Documents\GitHub\RandomScripts\functions.py", line 10, in <module>
+    arg1 = sys.argv[1] + " " + sys.argv[2]
+IndexError: list index out of range
+
