@@ -35,7 +35,7 @@ class Citizen:
 
 
 # Execute class and  call arguments
-#x = Citizen(sys.argv[1], sys.argv[2])   #if sys argument will be given
+#x = Citizen(sys.argv[1], sys.argv[2])   #if sys cmd argument will be given
 # x = Citizen("Satoru", "Gojo")          # if given str
 # print(x.greeting)
 # print(f"first name: {x.first_name}")

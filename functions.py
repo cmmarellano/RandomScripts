@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Apr 24 12:01:25 2022
+TwilioQuest: The Pythonic Temple
+Python Intiation: Functions I and II
 
 @author: Arellano
 """
