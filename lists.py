@@ -10,9 +10,13 @@ import sys
 
 # Create list
 order_of_succession = sys.argv
-order_of_succession.pop(0)
+
 
 print("Leaders:")
 for index, item in enumerate(order_of_succession, start=1):
     str_print = f"{index}. {item}"
     print(str_print)
+    
+    
+    
+order_of_succession.pop(0)
