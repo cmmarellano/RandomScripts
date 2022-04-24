@@ -7,7 +7,7 @@ TwilioQuest: The Pythonic Temple
 """
 
 
-import sys
+# import sys
 
 
 #Creating Python class to describe a citizen of Python
@@ -19,7 +19,7 @@ class Citizen:
     """
     
     
-    # Class variable shared by all instances
+    # class variable 
     greeting = "For the glory of Python!"
     
     # init method
@@ -36,7 +36,9 @@ class Citizen:
 
 
 # Execute class and  call arguments
-x = Citizen(sys.argv[1], sys.argv[2])
-print(x.greeting)
-x.full_name()
+#x = Citizen(sys.argv[1], sys.argv[2])   #if  argument will be given
+
+Citizen("Satoru", "Gojo")
+print(Citizen.greeting)
+Citizen.full_name()
 
