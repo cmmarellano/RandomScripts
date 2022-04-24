@@ -7,18 +7,22 @@ TwilioQuest: The Pythonic Temple
 """
 
 
+
+# Give arguments
+import sys
+arg1 = sys.argv[1]
+
 # Boolean variables declaration
 python_is_glorious = True
 failure_is_option = False
 
-# Give arguments
-import sys
-arg1 = sys.argv
 
-
+print(f"python_is_glorious: {python_is_glorious}")
+print(f"failure_is_option: {failure_is_option}")
+proper_greeting = False #initialize
 if arg1 == "For the glory of Python!":
     proper_greeting = True
-    print(proper_greeting)
+    print(f"proper_greeting : {proper_greeting} ")
 else:
     proper_greeting = False
-    print(proper_greeting)
+    print(f"proper_greeting : {proper_greeting} ")
