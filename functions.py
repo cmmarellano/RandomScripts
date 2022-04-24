@@ -5,12 +5,16 @@ Created on Sun Apr 24 12:01:25 2022
 @author: Arellano
 """
 
-import sys
+#import sys
 
+# Functions.py part1 vars
 #arg1 = sys.argv[1] + " " + sys.argv[2]
-arg1 = sys.argv[1]
-arg2 = sys.argv[2]
+#arg1 = sys.argv[1]
+#arg2 = sys.argv[2]
 
+# Functions.py part2 vars
+num1 = 1
+num2 = 5
 
 
 def hail_friend(args):
@@ -18,11 +22,15 @@ def hail_friend(args):
 
 
 def add_numbers(num1, num2):
-    result_sum = int(arg1) + int(arg2)
+    result_sum = int(num1) + int(num2)
     return result_sum
 
 
-# Call function
+# Call functions
+
 #hail_friend(arg1)
-add_numbers(arg1, arg2)
+
+print(f"first_number: {num1} ")
+print(f"second_number: {num2} ")
+print(add_numbers(num1, num2))
 #print(type(arg1))
