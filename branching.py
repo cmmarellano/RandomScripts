@@ -7,16 +7,19 @@ TwilioQuest: The Pythonic Temple
 @author: Arellano
 """
 
-#import sys
+import sys
 
-#num_sum = (int(sys.argv[1]) + int(sys.argv[2]))
+num_sum = (int(sys.argv[1]) + int(sys.argv[2]))
 
-a = 2
-b = 9
-num_sum = a + b
 
-print(f"a: {a}")
-print(f"b: {b}")
+#test vars
+# a = -1000
+# b = 9
+# num_sum = a + b
+# print(f"a: {a}")
+# print(f"b: {b}")
+
+
 print(f"num_sum: {num_sum}")
 
 if num_sum <= 0:
