@@ -7,7 +7,7 @@ Created on Sun Apr 24 12:01:25 2022
 
 msg = "Hail, friend!"
 
-def print_str():
+def hail_friend():
     print(msg)
 
-print_str()
+hail_friend()
