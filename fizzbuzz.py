@@ -14,7 +14,7 @@ args.pop(0)
 
 
 #test print of arguments
-print(f"arguments given:  {args}")
+#print(f"arguments given:  {args}")
 
 #Convert list values into int
 args = list(map(int, args))
