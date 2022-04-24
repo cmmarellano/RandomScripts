@@ -7,8 +7,8 @@ Created on Sun Apr 24 12:01:25 2022
 
 import sys
 
-args = sys.argv
+arg1 = sys.argv[1]
 def hail_friend(args):
     print(f"Hail, {args}!")
 
-hail_friend()
+hail_friend(arg1)
