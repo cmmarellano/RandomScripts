@@ -8,7 +8,25 @@ TwilioQuest: The Pythonic Temple
 """
 import sys
 
+# Take arguments from command line
 args = sys.argv
 args.pop(0)
-#test print
-print(f"args:  {args}")
+
+
+#test print of arguments
+print(f"arguments given:  {args}")
+
+#Convert list values into int
+args = list(map(int, args))
+#print(f"args[0] :  {args[0]}")
+
+#Loop
+for num in args:
+    if num % 3 == 0 and num % 5 ==0:
+            print("fizzbuzz")
+    elif num % 3 == 0:
+        print("fizz")
+    elif num % 5 ==0:
+        print("buzz")
+    else:
+        print(num)
